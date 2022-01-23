@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Muli', Tahoma, Geneva, Verdana, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+.navbar,
+.navbar-light .navbar-nav .nav-link {
+    transition: .3s ease-in-out;
+}
+.hover:hover {
+    color: var(--second-color);
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--second-color);
+}
+:root {
+    --main-color: #394362;
+    --second-color: #fcb269;
+}
+/* Framework */
+.navbar-brand {
+    color: var(--second-color);
+    font-weight: bold;
+    font-size: 2rem;
+}
+.navbar-brand span {
+    color: var(--main-color);
+}
+.pt-15 {
+    padding-top: 10%;
+}
+.main-color {
+    color: var(--second-color);
+}
+.m-c-2 {
+    background-color: #2500f9;
+    color: #fff;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+.m-c-2:hover {
+    color: #fff;
+    background-color: rgb(37, 0, 249, .8);
+}
+.second-color {
+    color: var(--main-color);
+}
+.img-responsive-test {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+/* Framework */
+/* Start Header */
+/* Start Navbar */
+.navbar .navbar-brand {
+    color: var(--second-color);
+    font-weight: bold;
+    font-size: 2rem;
+}
+.navbar .navbar-brand span {
+    color: var(--main-color);
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: var(--second-color);
+}
+.navbar-light .navbar-toggler-icon {
+    color: #fff;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.3);
+    -moz-box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.3);
+    -o-box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.3);
+    padding: .5rem;
+}
+@media (max-width: 991px) {
+    .navbar {
+        background: #333;
+    }
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+    }
+}
+/* End Navbar */
+/* End Header */
+/* Start Features */
+.features .row .icons .awesome-features .awesome:first-of-type .img {
+    background-color: #ffecef;
+    width: 110px;
+}
+.features .row .icons .awesome-features .awesome:first-of-type .info h3 {
+    color: #f88894;
+}
+.features .row .icons .awesome-features .awesome:nth-of-type(2) .img {
+    background-color: #f4f4ff;
+    width: 110px;
+}
+.features .row .icons .awesome-features .awesome:nth-of-type(2) .info h3 {
+    color: #90aeff;
+}
+.features .row .icons .awesome-features .awesome:last-of-type .img {
+    background-color: #e4ffee;
+    width: 110px;
+}
+.features .row .icons .awesome-features .awesome:last-of-type .info h3 {
+    color: #95c5a7;
+}
+/* Start Features_Two */
+.features .container .row:nth-of-type(2) .col:nth-child(2) span {
+    display: block;
+    width: 1px;
+    height: 160px;
+}
+/* End Features_Two */
+/* Start Features_Three */
+.features .row:nth-of-type(3) .col-md-4:first-child .img {
+    background-color: #ffecef;
+    width: 90px;
+}
+.features .row:nth-of-type(3) .col-md-4:first-child h3 {
+    color: #f88894;
+}
+.features .row:nth-of-type(3) .col-md-4:nth-child(2) .img {
+    background-color: #f4f4ff;
+    width: 90px;
+}
+.features .row:nth-of-type(3) .col-md-4:nth-child(2) h3 {
+    color: #90aeff;
+}
+.features .row:nth-of-type(3) .col-md-4:last-child .img {
+    background-color: #e4ffee;
+    width: 90px;
+}
+.features .row:nth-of-type(3) .col-md-4:last-child h3 {
+    color: #95c5a7;
+}
+/* End Features_Three */
+/* End Features */
+/* Start Why You Should */
+/* Row First 1st */
+.why-should .container .row:first-of-type .col-md-4:first-child .img {
+    background-color: #ffecef;
+    width: 90px;
+}
+.why-should .container .row:first-of-type .col-md-4:nth-child(2) .img {
+    background-color: #eaf9ff;
+    width: 90px;
+}
+.why-should .container .row:first-of-type .col-md-4:last-child .img {
+    background-color: #fff6d3;
+    width: 90px;
+}
+/* Row First 1st */
+/* Row Second 2sd */
+.why-should .container .row:nth-of-type(2) .col-md-4:first-child .img {
+    background-color: #e4ffee;
+    width: 90px;
+}
+.why-should .container .row:nth-of-type(2) .col-md-4:nth-child(2) .img {
+    background-color: #f4f4ff;
+    width: 90px;
+}
+.why-should .container .row:nth-of-type(2) .col-md-4:last-child .img {
+    background-color: #f4f4ff;
+    width: 90px;
+}
+/* Row Second 2sd */
+/* Start Get-awesome */
+.get-awesome .container .column {
+    border-color: #eee;
+    -webkit-box-shadow: 0 0 10px -3px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 0 10px -3px rgba(0, 0, 0, .2);
+    -o-box-shadow: 0 0 10px -3px rgba(0, 0, 0, .2);
+    box-shadow: 0 0 10px -3px rgba(0, 0, 0, .2);
+}
+.get-awesome .span {
+    background-color: #efefef;
+}
+.get-awesome .span span {
+    cursor: pointer;
+    -webkit-transition: .3s ease-in;
+    -moz-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+}
+.get-awesome span button.btn:focus {
+    outline: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    color: #eee;
+}
+/* End Get-awesome */
+/* End Why You Should */
+/* Start Testimonial */
+.testimonial .content {
+    opacity: 0;
+    -webkit-transition: .6s ease-in-out;
+    -moz-transition: .6s ease-in-out;
+    -o-transition: .6s ease-in-out;
+    transition: .6s ease-in-out;
+}
+.testimonial .content.active {
+    opacity: 1;
+}
+.testimonial .arrow i:active {
+    transform: scale(0.97);
+}
+/* End Testimonial */
+/* Start FAQ */
+.faq .container .info {
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 0 auto .75rem ;
+    width: 700px;
+    max-width: 100%;
+    cursor: pointer;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+.faq .container .info h2 {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.faq .container .info h2 span {
+    color: var(--main-color);
+    font-size: 1rem;
+    cursor: pointer;
+}
+.faq .container .info.faq-toggle {
+    background-color: rgb(252, 178, 105, 0.5);
+}
+.faq .container .info.faq-toggle h2 span i.fa-chevron-up {
+    display: none;
+}
+.faq .container .info.faq-toggle h2 span i.fa-chevron-down {
+    display: block;
+}
+.faq .container .info h2 span i.fa-chevron-up {
+    display: block;
+}
+.faq .container .info h2 span i.fa-chevron-down {
+    display: none;
+}
+.faq .container .info h2 span i {
+    position: absolute;
+    right: 17px;
+    top: 20px;
+}
+.faq .container .info.faq-toggle p.active {
+    display: block;
+}
+.faq .container .info {
+    position: relative;
+}
+.faq .container .info p.active {
+    display: none;
+}
+/* End FAQ */
+/* Start Section Download */
+.download .container .img img {
+    width: 700px;
+}
+.download .container .images-apps img {
+    cursor: pointer;
+}
+.download .container .images-apps img:active {
+    -webkit-transform: scale(0.97);
+    -moz-transform: scale(0.97);
+    -o-transform: scale(0.97);
+    transform: scale(0.97);
+}
+/* End Section Download */
+/* Start Footer */
+footer {
+    background-color: #09142e;
+}
+footer .navbar-brand:hover {
+    color: var(--second-color);
+}
+footer .navbar-brand span {
+    color: #fff;
+}
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 400px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+footer ul:first-of-type li a {
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+}
+footer ul:first-of-type li a:hover {
+    color: var(--second-color);
+}
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+footer .container .icons li i {
+    color: #273043;
+    cursor: pointer;
+    -webkit-transition: .3s ease-in;
+    -moz-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+}
+footer .container .icons li .fa-facebook-f:hover {
+    color: #1877f2;
+}
+footer .container .icons li .fa-twitter:hover {
+    color: #00aeef;
+}
+footer .container .icons li .fa-telegram:hover {
+    color: #0088cc;
+}
+footer .container .icons li .fa-github:hover {
+    color: #bd2c00;
+}
+/* End Footer */
